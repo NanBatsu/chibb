@@ -1,0 +1,88 @@
+var points = 0;
+var pointsDiv;
+var pointsParent;
+var rewardJSON;
+var bigPapa ;
+///Cards!
+var cardMain;
+var cardImg;
+var cardBody;
+var cardTitle;
+var cardText;
+var cardButton;
+
+var validate = "false";
+function preload(){
+    rewardJSON=loadJSON('data.json')
+    points = points + getItem('points');
+    pointsParent = document.getElementById('pointsID');
+    bigPapa = document.getElementById('deck')
+}
+
+function setup(){
+    pointsDiv = createDiv(points);
+    pointsDiv.class('mx-auto');
+    pointsDiv.id('points');
+    pointsDiv.parent(pointsParent);
+    for(var i=0;i<2;i++){
+        createItem(rewardJSON[i].img,rewardJSON[i].name,rewardJSON[i].desc,rewardJSON[i].cost)
+
+    }
+
+}
+function draw(){
+    if(rewardJSON[0].buyable == "true" && validate=="true"){
+        points= points-rewardJSON[0].cost;
+        storeItem('points',points)
+        console.log("bought!")
+        validate="false"
+
+
+    }
+    else if(rewardJSON[1].buyable == "true" && validate=="true"){
+        points= points-rewardJSON[1].cost;
+        storeItem('points',points)
+        validate="false"
+
+    }
+    
+}
+
+function createItem(cardImgSrc,cardTitleData,cardPText,itemCost){
+
+cardMain = createDiv();
+cardImg = createImg(cardImgSrc,"")
+cardBody = createDiv();
+cardTitle = createElement('h5',cardTitleData);
+cardText = createDiv(cardPText);
+cardButton= createDiv(itemCost)
+
+////Assign Classes
+cardMain.class('card text-center');
+cardImg.class('card-img-top mx-auto');
+cardBody.class('card-body');
+cardTitle.class('card-title');
+cardText.class('card-text')
+cardButton.class('btn btn-info')
+
+//Parenting
+cardMain.parent(bigPapa)
+cardImg.parent(cardMain);
+cardBody.parent(cardMain);
+cardTitle.parent(cardBody);
+cardText.parent(cardBody);
+cardButton.parent(cardBody);
+
+
+cardButton.mouseClicked(takeAway)
+
+};
+
+function takeAway(){
+   validate="true" 
+   console.log("Validated")
+};
+function resetPoints(){
+    points= 0;
+    storeItem('points',points)
+}

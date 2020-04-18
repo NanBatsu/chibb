@@ -1,0 +1,100 @@
+[
+   {
+    "name":"Mimitosh",
+    "desc":"Te woa dar mimitos porque te amo",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700110472518565938/mimos.png",
+    "cost":"10",
+    "buyable":"true"
+   },
+   {
+    "name":"Overwatch LootBoxes",
+    "desc":"2 cajitas bien wonitas",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700115028338147480/loot.png",
+    "cost":"200",
+    "buyable":"true"
+   },
+   {
+    "name":"10$ Steam Gift!",
+    "desc":"moNEY",
+    "img":"https://media.discordapp.net/attachments/640013491247382535/700151525531451492/steam.png?width=678&height=678",
+    "cost":"600",
+    "buyable":"true"
+   },
+   {
+    "name":"Chibi",
+    "desc":"Dibujo caca de nano en chibi porque si",
+    "img":"https://media.discordapp.net/attachments/640013491247382535/700153151030034472/chibi.png?width=678&height=678",
+    "cost":"100",
+    "buyable":"true"
+   },
+   {
+    "name":"Alcohol",
+    "desc":"Vamo a emborracharno osiosi",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700155663921184798/alcohol.png",
+    "cost":"1000",
+    "buyable":"true"
+   },
+   {
+    "name":"Conceptos de JSON",
+    "desc":"Como funciona JSON e implementarlo en P5!",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700156464399908954/JSON.png",
+    "cost":"50",
+    "buyable":"true"
+   },
+   {
+    "name":"P5 OBJ",
+    "desc":"Quien necesita variables! Usemos Objetos!",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700158879950045244/P5.png",
+    "cost":"50",
+    "buyable":"true"
+   },
+   {
+    "name":"HTML Tags",
+    "desc":"Nuevos elementos! Mas capacidad :D",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700159238420561960/HTML.png",
+    "cost":"50",
+    "buyable":"true"
+   },
+   {
+    "name":"P5 DOM Manipulation",
+    "desc":"Modifica tu Website con P5! ",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700158879950045244/P5.png",
+    "cost":"100",
+    "buyable":"true"
+   },
+   {
+    "name":"Bootstrap",
+    "desc":"Haz tu website mas bonito en menos tiempo!",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700161749046788126/Bootstrap.png",
+    "cost":"150",
+    "buyable":"true"
+   },
+   {
+    "name":"Photoshop",
+    "desc":"Conceptos de PS! Tambien accesso a mi cuenta <3",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700160527267266620/Ps.png",
+    "cost":"100",
+    "buyable":"true"
+   },
+   {
+    "name":"Vegas / Premiere",
+    "desc":"Como hacerse un youtuber 101",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700161220476665907/Vegas.png",
+    "cost":"100",
+    "buyable":"true"
+   },
+   {
+    "name":"Limpiar Cuarto",
+    "desc":"Que perezaaaaaaaaaaaaaaaaaa",
+    "img":"https://cdn.discordapp.com/attachments/640013491247382535/700163197021192222/clean.png",
+    "cost":"100",
+    "buyable":"true"
+   }
+
+    
+
+
+
+
+
+]

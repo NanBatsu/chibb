@@ -1,0 +1,97 @@
+body{
+    
+    background:
+linear-gradient(135deg,  #ecc587 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg,  #ecc587 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color: #ecc587;
+background-size: 64px 128px;
+}
+#titlePage{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    padding-top:1rem;
+    text-align: center;
+    margin-top:1rem;
+    color:white;
+    text-shadow:
+    3px 3px 0 	#f2949c,
+  -1px -1px 0 	#f2949c,  
+   1px -1px 0 	#f2949c,
+   -1px 1px 0 	#f2949c,
+    1px 1px 0 	#f2949c;
+    font-size: 5rem;
+    padding-bottom:1rem;
+}
+
+.bubble{
+    background-color: antiquewhite;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.card{
+    border-radius: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: oblique;
+ 
+}
+.card-img-top{
+    max-width: 20rem;
+    
+    max-height: 20rem;
+}
+.card-title{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color:white;
+    text-shadow:
+    3px 3px 0 		#f2949c,
+  -1px -1px 0 		#f2949c,  
+   1px -1px 0 		#f2949c,
+   -1px 1px 0 		#f2949c,
+    1px 1px 0 		#f2949c;
+}
+.btn{
+    border-radius: 3rem;
+    font-family: 'Nunito', sans-serif;
+}
+#points{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color:white;
+    text-shadow:
+    
+    3px 3px 0 		#f2949c,
+  -1px -1px 0 		#f2949c,  
+   1px -1px 0 		#f2949c,
+   -1px 1px 0 		#f2949c,
+    1px 1px 0 		#f2949c;
+    margin-bottom:2rem;
+
+}
+#pointsText{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color:white;
+    text-shadow:
+    
+    3px 3px 0 		#f2949c,
+  -1px -1px 0 		#f2949c,  
+   1px -1px 0 		#f2949c,
+   -1px 1px 0 		#f2949c,
+    1px 1px 0 		#f2949c;
+    margin-bottom:2rem;
+}
